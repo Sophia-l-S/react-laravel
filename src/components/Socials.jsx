@@ -6,7 +6,7 @@ export default function Social() {
     useEffect(() => {
         const getSocial = async () => {
             let response = await fetch(
-                "http://larval.sophiascott.ca/api/socials");
+                "http://laravel.sophiascott.ca/api/socials");
             let data = await response.json();
             setSocial(data);
         }

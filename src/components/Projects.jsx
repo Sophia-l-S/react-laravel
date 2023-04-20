@@ -6,7 +6,7 @@ export default function Project() {
     useEffect(() => {
         const getProject = async () => {
             let response = await fetch(
-                "http://larval.sophiascott.ca/api/projects");
+                "http://laravel.sophiascott.ca/api/projects");
             let data = await response.json();
             setProject(data);
         }
