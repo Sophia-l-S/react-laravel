@@ -15,11 +15,11 @@ export default function Education() {
 
     return (
         <div>
-            <hr></hr>
+            
             <h2 id="title">
                 Education
             </h2>
-            <hr></hr>
+            
             <ul id="list">
                 {education.map((education) =>(
                     <li key={education.id}>
