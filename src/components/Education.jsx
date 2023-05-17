@@ -6,7 +6,7 @@ export default function Education() {
     useEffect(() => {
         const getEducation = async () => {
             let response = await fetch(
-                "http://laravel.sophiascott.ca/api/education");
+                "https://laravel.sophiascott.ca/api/education");
             let data = await response.json();
             setEducation(data);
         }
