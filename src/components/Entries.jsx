@@ -6,7 +6,7 @@ export default function Entry() {
     useEffect(() => {
         const getEntry = async () => {
             let response = await fetch(
-                "http://laravel.sophiascott.ca/api/entries");
+                "https://laravel.sophiascott.ca/api/entries");
             let data = await response.json();
             setEntry(data);
         }
