@@ -53,6 +53,7 @@ body {
 
 li a:hover {
     background-color: #4b3832;
+  padding: 14px 16px;
 }
 
 #title {
