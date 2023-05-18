@@ -7,16 +7,11 @@ body {
 }
 
 #site-name a {
-/*   text-decoration: none;
+  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-weight: 100; */
-  text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    color: #3c2f2f;
-    padding-right: 55em;
-    margin: 0;
-    font-size: 1em;
+  color: #3c2f2f;
+  font-weight: 100;
+  padding-right: 55em;
 }
 
 #site-name {
