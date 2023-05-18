@@ -20,8 +20,8 @@ function App() {
         <p>My name is Sophia Scott</p>
         <p>I am a web developer with a background in computer systems and computer networking</p>
       </div>
-      <Education />
       <Projects />
+      <Education />
       <Socials />
       <Footer />
 
