@@ -21,6 +21,7 @@ body {
 #header {
    display: flex;
     justify-content: space-between;
+  padding-right: 5em;
     overflow: hidden;
     background-color: #be9b7b;
     position: -webkit-sticky;
